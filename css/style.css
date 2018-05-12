@@ -36,6 +36,9 @@ h2{
     padding-top:65px;
 }
 @media (max-width: 768px) {
+  div.top{
+    height:250px;
+  }
   .container {
     flex-direction: column;
   }
