@@ -1,0 +1,68 @@
+@charset "UTF-8";    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+
+div.top {
+  background-image: url(../images/kuma425009_TP_V.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+h2{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:40px;
+    font-size: 200%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.skill-box {
+    background-color: red;
+    height: 200px;
+  margin: 10px;
+  flex: 1;
+}
+.skill-box h3{
+    background-color: blue;
+    height: 35px;
+    text-align:center;
+    padding-top:15px;
+}
+.skill-box p{
+    text-align:center;
+    padding-top:65px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+footer
+{
+  text-align: center;
+  background-color: blue;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+h2.hooter{
+  text-align:center;
+    padding-top:50px;
+    padding-bottom:15px;
+    font-size: 150%;
+}
+.button{
+    width:200px;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:black;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: red;
+}
