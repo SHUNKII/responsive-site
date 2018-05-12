@@ -2,6 +2,9 @@
 
 @import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
 
+body{
+  background-color: #33d6f81c
+}
 div.top {
   background-image: url(../images/kuma425009_TP_V.jpg);
   height: 500px;
@@ -20,13 +23,13 @@ h2{
   flex-direction: row;
 }
 .skill-box {
-    background-color: red;
+    background-color: #91c6f2ba;
     height: 200px;
   margin: 10px;
   flex: 1;
 }
 .skill-box h3{
-    background-color: blue;
+    background-color: #18c6fb;
     height: 35px;
     text-align:center;
     padding-top:15px;
@@ -46,7 +49,7 @@ h2{
 footer
 {
   text-align: center;
-  background-color: blue;
+  background-color: #18c6fb;
   margin-top: 30px;
   padding-bottom: 50px;
 }
@@ -67,5 +70,5 @@ h2.hooter{
     color:black;
     border:1px solid black;
     border-radius: 5px;
-    background-color: red;
+    background-color: #eee;
 }
